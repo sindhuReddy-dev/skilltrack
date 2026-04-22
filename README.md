@@ -26,7 +26,7 @@ SkillTrack is a roadmap-based learning tracker that helps users stay consistent 
 
 ## 🌐 Live Demo
 
-(Add your deployed link here after using Vercel/Netlify)
+https://sindhu-skilltrack.netlify.app/
 
 ## 📌 Future Improvements
 
