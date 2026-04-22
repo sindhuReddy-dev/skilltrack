@@ -1,0 +1,303 @@
+body{
+    width: 100%;
+    padding: 0;
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+}
+
+
+.header-section{
+    background-image: linear-gradient(to top, #4A90E2, #1E5BB8);
+    padding: 20px;
+    text-align: center;
+}
+
+.header-heading{
+    font-size: 35px;
+    color: #ffffff;
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+    letter-spacing: 0.7px;
+}
+
+/* select-role */
+
+.select-role-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.select-career-para{
+    color: black;
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+    margin-right: 8px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 34px;
+}
+
+.select-role-dropdown{
+    width: 35%;
+    /* padding: 7px 12px 7px 12px; */
+    
+    background-color: rgb(235, 230, 230);
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.button{
+    color: white;
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+    background-color: #1E5BB8;
+    border-width: 0;
+    padding: 8px 18px 8px 18px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+
+/* Roadmap Section */
+
+.roadmapCard{
+    background-color: #dce9fc;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.roadmap-head{
+    font-size: 23px;
+    color: #080000;
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.daily-plan-head{
+    color: black;
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+}
+
+/* flowchart */
+.flowchart-container{
+    margin-top: 30px;
+}
+
+.flowchart-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    
+}
+
+.flowchart-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.line{
+    width: 2px;
+    height: 40px;
+    background-color: black;
+}
+
+.flowchart-content{
+    font-size: 17px;
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+    
+}
+
+/* Phase */
+
+.progress-container{
+    margin-bottom: 15px;
+}
+
+.progress-text{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 10px;
+    background-color: #9e9c9c !important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill{
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    background-color: #4caf50;
+    background: linear-gradient(90deg, #67c46a, #4caf50);
+    transition: width 0.3s ease;
+}
+
+.phase-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.phase-container input[type = "checkbox"]{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.phase-items{
+    color: black;
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    margin-top: 26px;
+    font-weight: 600;
+}
+
+.list-style{
+    list-style-type: disc;
+}
+
+.topics-container{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.topic-items{
+    color: rgb(0, 0, 0);
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+    font-size: 14px;
+    
+}
+
+.resource-head{
+    color: rgb(65, 64, 64);
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    margin-top: 10px;
+    font-weight: 500;
+    /* margin-left: 10px; */
+}
+
+.resource-list-type{
+    list-style-type: circle;
+}
+
+.resource-list-items{
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.learn-btn{
+    color: white;
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+    background-color: #1E5BB8;
+    border-width: 0;
+    padding: 8px 18px 8px 18px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+
+/* Daily-Plan-section */
+.task-list-style{
+    list-style-type: none;
+}
+
+.streak-text{
+    color: #ff4500;
+    font-size: 30px;
+}
+
+.complete-msg{
+    font-size: 20px;
+    background-color: rgba(175, 246, 176, 0.5);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px){
+    .select-role-container{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .select-career-para{
+        font-size: 14px;
+        margin-top: 14px;
+    }
+
+    .button{
+        margin-top: 20px;
+    }
+
+    .roadmap-head{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .select-role-dropdown{
+        width: 70%;
+        margin-top: 2px;
+        font-size: 14px;
+    }
+
+    .flowchart-content{
+        font-size: 13px;
+    }
+
+    .daily-plan-head{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .phase-items{
+        font-size: 15px;
+    }
+
+    .topics-container{
+        padding: 15px 10px 15px 10px;
+    }
+
+    .topic-items{
+        font-size: 13px;
+    }
+
+    .resource-head{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .resource-list-items{
+        font-size: 13px;
+        margin-left: 15px;
+    }
+}
